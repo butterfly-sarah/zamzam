@@ -540,4 +540,17 @@ nav .btn-primary,
     .copyright {
         font-size: 12px;
     }
+    .carousel-caption {
+        padding: 10px;
+    }
+    .carousel-caption h3 {
+        font-size: 14px;
+    }
+    .carousel-caption p {
+        font-size: 8px;
+    }
+    .carousel-caption button {
+        padding: 5px 20px;
+        font-size: 10px;
+    }
 }
