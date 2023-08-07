@@ -416,21 +416,17 @@ nav .btn-primary,
     bottom: 10px;
 }
 
+.carousel-inner {
+    height: 100vh;
+}
+
 @media(max-width:500px) {
     body>i {
-        position: fixed;
-        z-index: 30;
         left: 5%;
         top: 25%;
         padding: 10px;
         font-size: 25px;
-        margin: 20px 0px;
-        color: white;
-        border-radius: 7px;
-        background-color: black;
-        mix-blend-mode: multiply;
         width: 40px;
-        text-align: center;
     }
     body>.i2 {
         top: 35%;
@@ -443,5 +439,105 @@ nav .btn-primary,
     }
     body>.i5 {
         top: 65%;
+    }
+    .carousel-inner {
+        height: 45vh;
+    }
+    .accordion-button:after {
+        margin-right: 50vw;
+    }
+    .accordion-button,
+    .accordion-body {
+        padding-right: 20px;
+    }
+    .papers {
+        padding: 50px 20px;
+    }
+    .fixedimg,
+    .fixedimg2 {
+        height: 30vh;
+    }
+    .justify-content-around {
+        text-align: center;
+    }
+    .justify-content-around .card {
+        width: 80vw;
+    }
+    .rest {
+        position: static;
+        text-align: center;
+    }
+    .rest .card {
+        width: 95vw;
+        text-align: right;
+    }
+    .hotel .parent {
+        clip-path: none;
+    }
+    .hotel .parent2 {
+        clip-path: none;
+    }
+    .h-p {
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        text-align: right;
+    }
+    .h-p1 {
+        position: absolute;
+        bottom: 420px;
+        left: -50px;
+        text-align: right;
+        width: 100vw;
+    }
+    .h-p1 button,
+    .h-p button {
+        background-color: rgb(155, 103, 60);
+        color: white;
+        padding: 5px;
+        border: none;
+        display: inline-block;
+    }
+    .col-sm-8 {
+        padding: 35px;
+    }
+    .line1 {
+        right: 50px;
+        top: 535px;
+    }
+    .line {
+        right: 50px;
+        top: 125px;
+    }
+    .contact {
+        text-align: center;
+    }
+    .contact .card {
+        width: 40%;
+        display: inline-block;
+        margin: 5px;
+    }
+    .contact .card img {
+        filter: drop-shadow(2px 2px 5px rgb(155, 103, 60));
+        margin: 10px 0px;
+        transition: 1s;
+    }
+    .contact .card:hover img {
+        transition: 1s;
+        filter: drop-shadow(2px 2px 30px rgb(155, 103, 60));
+    }
+    .footer {
+        padding: 45px 5px;
+    }
+    .footer table {
+        width: 25%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .footer img {
+        width: 50px;
+    }
+    .copyright {
+        font-size: 12px;
     }
 }
