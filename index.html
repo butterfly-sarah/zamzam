@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1">
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/607b2578c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <i class="fa-brands fa-facebook-f d-block i1"></i>
+    <i class="fa-brands fa-whatsapp d-block i2"></i>
+    <i class="fa-brands fa-twitter d-block i3"></i>
+    <i class="fa-brands fa-linkedin-in d-block i4"></i>
+    <i class="fa-brands fa-instagram d-block i5"></i>
+    <nav class="navbar navbar-expand-sm fixed-top justify-content-end">
+
+
+        <div class="container-fluid">
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#myModal">تسجيل الدخول</button>
+            <button class="navbar-toggler md-5" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <button class="btn btn-primary mx-2" type="button">بحث</button>
+                <input class="form-control me-2" type="text" placeholder="بحث" style="text-align: right;">
+
+
+                <form class="d-flex">
+
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">الطيران</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">الاقامة</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">الزيارات</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">الحج</a></li>
+                                <li><a class="dropdown-item" href="#">العمرة</a></li>
+                                <li>
+                                    <hr class="dropdown-divider"></hr>
+                                </li>
+                                <li><a class="dropdown-item" href="#">الرحلات</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">الرئيسية</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.jpg" alt="zmzm Logo" style="width:60px;">
+                    </a>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="text-align: right;">تسجيل الدخول</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p style="text-align: right;">البريد الالكتروني</p>
+                    <div class="mb-3">
+                        <input type="text" class="form-control">
+                        <div class="form-text" style="text-align: right;">لن تتم مشاركة بريدك الالكتروني مع اي شخص</div>
+                    </div>
+                    <p style="text-align: right;">كلمة السر</p>
+                    <input type="password" class="form-control">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">تذكرني</label>
+                    </div>
+                </div>
+
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">تسجيل الدخول</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">اغلاق</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner" style="height: 100vh;">
+            <div class="carousel-item active h-100">
+                <img src="images/wallpaperflare.com_wallpaper.jpg" alt="hajj" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>المسجد الحرام</h3>
+                    <p> اصطفى الله هذه الأرض واختارها وجعلها حرماً، فمنع فيها بعض ما أباحه في غيرها، وخصها بفضائل ومزايا لا توجد في غيرها، وهي حرمة واختصاص ضارب في عمق تاريخ الكون كله</p>
+                    <button>المزيد</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="images/wallpaperflare.com_wallpaper (6).jpg" alt="hajj" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>المسجد النبوي</h3>
+                    <p>المدينة المنورة أو كما يلقبها المسلمون بـ “طيبة الطيِّبة”، ُتعد إحدى الوجهات الرئيسية لملايين المسلمين حول العالم حيث أنَّها أول عاصمة في تاريخ الإسلام، وثاني أقدس الأماكن لدى المسلمين بعد مكة المكرمة</p>
+                    <button>المزيد</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="images/wallpaperflare.com_wallpaper (4).jpg" alt="hajj" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>الطيران الفاخر</h3>
+                    <p>تقوم حملات الحج بترتيب خروج الحجاج من المطار بالتنسيق مع الجهات المسؤولة داخل المطار، وتحديد موقف الحافلة التي ستقل الركاب، وترتيب صعودهم ونقل أمتعتهم إليها</p>
+                    <button>المزيد</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="images/Copy-of-2020-03-03T124232Z_1103584356_RC2CCF9BA3R5_RTRMADP_3_HEALTH-CORONAVIRUS-SAUDI--1--1583421054951_170ab3fdfe9_original-ratio (1).jpg" alt="hajj" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>الحفاظ على النظافة</h3>
+                    <p>يتوافد ضيوف الرحمن القادمون للحجِّ والعمرة من كل أنحاء العالم، ويصل عددهم إلى ملايين الزوار سنويًّا، وتُبذل جهود استثنائية لتوفير الخدمة والراحة للحجاج والمعتمرين والزوار، حتى يتفرَّغوا لأداء عباداتهم آمنين مطمئنين، لا يشغلهم شيءٌ
+                        غير العبادة التي أتوا من أجلها</p>
+                    <button>المزيد</button>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="images/wallpaperflare.com_wallpaper (5).jpg" alt="hajj" class="d-block w-100 h-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>الفنادق</h3>
+                    <p>تتوفر العديد من الفنادق التي تحتوي على سبل الراحة من مكيفات وانظمة امان وصالات رياضية لضمان كافة الخدمات</p>
+                    <button>المزيد</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+    <div class="welcome">
+        <h3>زمزم</h3>
+        <p>تعد أول منصة رسمية تتيح لك خيار التخطيط والحجز وعيش تجربة العمرة الخاصة بك. نسك تتيح للمسافرين من جميع أنحاء العالم تنظيم وتخطيط جميع تفاصيل زيارتهم بسهولة، بدءا من التقدم بطلب الحصول على تأشيرة إلكترونية إلى حجز الفنادق والرحلات الجوية</p>
+        <div><button>المزيد</button></div>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <bdi>عن برنامج الزيارات (1)</bdi>
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">المدينة المنورة أو كما يلقبها المسلمون بـ “طيبة الطيِّبة”، ُتعد إحدى الوجهات الرئيسية لملايين المسلمين حول العالم حيث أنَّها أول عاصمة في تاريخ الإسلام، وثاني أقدس الأماكن لدى المسلمين بعد مكة المكرمة. تقع المدينة المنورة في منطقة الحجاز
+                    غرب المملكة العربية السعودية، وبها يوجد المسجد النبوي الشريف الذي بناه رسولنا الكريم بنفسه بعد هجرته سنة ١ هـ (٦٢٢ م)، فأصبح أحد أكبر المساجد في العالم بعد المسجد الحرام. يزور المدينة المنورة سنويًّا الملايين من المسلمين حول العالم</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <bdi>عن برنامج الزيارات (2)</bdi>
+            </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">المدينة المنورة أو كما يلقبها المسلمون بـ “طيبة الطيِّبة”، ُتعد إحدى الوجهات الرئيسية لملايين المسلمين حول العالم حيث أنَّها أول عاصمة في تاريخ الإسلام، وثاني أقدس الأماكن لدى المسلمين بعد مكة المكرمة. تقع المدينة المنورة في منطقة الحجاز
+                    غرب المملكة العربية السعودية، وبها يوجد المسجد النبوي الشريف الذي بناه رسولنا الكريم بنفسه بعد هجرته سنة ١ هـ (٦٢٢ م)، فأصبح أحد أكبر المساجد في العالم بعد المسجد الحرام. يزور المدينة المنورة سنويًّا الملايين من المسلمين حول العالم</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <bdi>عن برنامج الزيارات (3)</bdi>
+            </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">المدينة المنورة أو كما يلقبها المسلمون بـ “طيبة الطيِّبة”، ُتعد إحدى الوجهات الرئيسية لملايين المسلمين حول العالم حيث أنَّها أول عاصمة في تاريخ الإسلام، وثاني أقدس الأماكن لدى المسلمين بعد مكة المكرمة. تقع المدينة المنورة في منطقة الحجاز
+                    غرب المملكة العربية السعودية، وبها يوجد المسجد النبوي الشريف الذي بناه رسولنا الكريم بنفسه بعد هجرته سنة ١ هـ (٦٢٢ م)، فأصبح أحد أكبر المساجد في العالم بعد المسجد الحرام. يزور المدينة المنورة سنويًّا الملايين من المسلمين حول العالم</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>الاوراق المطلوبة لاداء فريضة الحج</h2>
+    <div class="papers">
+        <bdi> 
+            <h5>للاطلاع على الشروط 
+                <a href="">اضغط هنا</a>
+            </h5>
+            <div class="copy">
+                <button class="btn copy1" data-bs-toggle="tooltip" title="نسخ الى الحافظة" style="margin-left:auto ;">نسخ</button>
+                <div class="form-floating">
+                    <textarea class="form-control container" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea" class="container">التعليق هنا</label>
+                </div>
+            </div>
+            </bdi>
+    </div>
+
+    <h2>الاوراق المطلوبة لاداء مناسك العمرة</h2>
+    <div class="papers">
+        <bdi> 
+            <h5>للاطلاع على الشروط 
+                <a href="">اضغط هنا</a>
+            </h5>
+            <div class="copy">
+                <button class="btn copy1" data-bs-toggle="tooltip" title="نسخ الى الحافظة" style="margin-left:auto ;">نسخ</button>
+                <div class="form-floating">
+                    <textarea class="form-control container" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea" class="container">التعليق هنا</label>
+                </div>
+            </div>
+            </bdi>
+    </div>
+    <div class="container-fluid fixedimg"></div>
+
+    <h2>رحلات الزيارة</h2>
+    <div class=" d-flex justify-content-around trip">
+        <div class="card my-5">
+            <img class="card-img-top " src="images/khawaja-umer-farooq-J8vjITij1xw-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">رحلة الحج</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+        <div class="card my-5">
+            <img class="card-img-top " src="images/hassan-altarazi-gP2i2agfPFE-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">رحلة العمرة</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+
+        <div class="card my-5">
+            <img class="card-img-top " src="images/abdurahman-iseini-DNwQ35LdxXQ-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">زيارة الحرم المكي</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+
+    </div>
+    <div class=" d-flex justify-content-around trip">
+        <div class="card mb-5">
+            <img class="card-img-top " src="images/haidan-IOBIgKmjm1Y-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">زيارة مكة</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+        <div class="card mb-5">
+            <img class="card-img-top " src="images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">زيارة المدينة المنورة</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+        <div class="card mb-5">
+            <img class="card-img-top " src="images/ayse-bek-YLdYVzHopto-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">زيارة المسجد النبوي</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+
+    </div>
+    <div class=" d-flex justify-content-around trip">
+        <div class="card mb-5">
+            <img class="card-img-top " src="images/pexels-حمزة-رسلان-8865161.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">زيارة مسجد قباء</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+        <div class="card mb-5">
+            <img class="card-img-top " src="images/rezki-trianto-GSXeIGXxgyw-unsplash.jpg" alt="Card image " style="width:100% ">
+            <div class="card-body ">
+                <h4 class="card-title ">جولة بمساجد المملكة</h4>
+                <p class="card-text ">شامل الاقامة والانتقالات كاملة</p>
+                <div style="text-align: left;"><a href="# " class="btn btn-primary ">تفاصيل</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid fixedimg2"></div>
+    <h2>المطاعم والمقاهي</h2>
+    <div class="container-fluid d-flex justify-content-center relative rest">
+        <div class="card bg-dark text-white my-5">
+            <img src="images/1-maqam-cafe-makkah.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" style="background: rgba(0,0,0,0.5);">
+                <h5 class="card-title">مطعم مقام</h5>
+                <p class="card-text"> الأحد 06-08-2023 <i class="fa-regular fa-clock"></i></p>
+                <div class="cardfooter container-fluid">
+                    <img src="images/1-maqam-cafe-makkah.jpg" class="rounded-circle" alt="">
+                    <p>يوجد توصيل 24 ساعة</p>
+                    <p>الاسعار شاملة الضريبة والدمغة</p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white m-5">
+            <img src="images/1-albyt-makkah.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" style="background: rgba(0,0,0,0.5);">
+                <h5 class="card-title">مطعم البيت</h5>
+                <p class="card-text"> الأحد 06-08-2023 <i class="fa-regular fa-clock"></i></p>
+                <div class="cardfooter container-fluid">
+                    <img src="images/1-albyt-makkah.jpg" class="rounded-circle" alt="">
+                    <p>يوجد توصيل 24 ساعة</p>
+                    <p>الاسعار شاملة الضريبة والدمغة</p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white my-5">
+            <img src="images/ibnbattuta-0gH1jLo-ZqXqG-Bn6.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay" style="background: rgba(0,0,0,0.5);">
+                <h5 class="card-title">مطعم ريليش</h5>
+                <p class="card-text"> الأحد 06-08-2023 <i class="fa-regular fa-clock"></i></p>
+                <div class="cardfooter container-fluid">
+                    <img src="images/ibnbattuta-0gH1jLo-ZqXqG-Bn6.jpg" class="rounded-circle" alt="">
+                    <p>يوجد توصيل 24 ساعة</p>
+                    <p>الاسعار شاملة الضريبة والدمغة</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>الفنادق</h2>
+    <div class="card my-5 container p-0 hotel">
+        <div class="row g-0">
+            <div class="col-sm-8">
+                <div class="card-body">
+                    <h5 class="card-title">فندق الصفوة</h5>
+                    <p class="card-text"><small class="text-muted">الأحد, ٦ أغسطس ٢٠٢٣ <i class="fa-regular fa-calendar"></i></small></p>
+                    <br>
+                    <div class="line"></div>
+                    <bdi><p>يقع فندق الصفوة قبالة بوابة الملك عبدالعزيز في مكة المكرمة، ويقدم أماكن إقامة حديثة وراقية في مبنى عالٍ على أطراف ساحة الحرم المكّي. ويوفر خدمة الواي فاي المجانية. وقد تم تزويد الغرف في فندق الصفوة رويال اوركيد بالأثاث المعاصر، وتم
+                        تجهيزها بشاشة تلفزيون مسطحة مع قنوات فضائية، وجميعها مكيفة الهواء وتحتوي على حمّام داخلي مزود بلوازم استحمام مختارة.</p>
+                    </bdi>
+                    <p class="h-p1">
+                        <button> احجز الان <i class="fa-solid fa-dollar-sign"></i></button>
+                        <button> الغرف المتاحة <i class="fa-solid fa-bed fa-flip-horizontal"></i></button>
+                        <button> الاسعار <i class="fa-solid fa-dollar-sign"></i></button>
+                    </p>
+                </div>
+            </div>
+            <div class="parent col-sm-4">
+                <div class=" clipped" style="background: url(images/febrian-zakaria-2QTsCoQnoag-unsplash.jpg);background-size: contain;">
+                    <img src="images/febrian-zakaria-2QTsCoQnoag-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card my-5 container p-0 hotel">
+        <div class="row g-0">
+            <div class="parent2 col-sm-4">
+                <div class="clipped2" style="background: url(images/febrian-zakaria-gwV9eklemSg-unsplash.jpg);background-size: contain;">
+                    <img src="images/febrian-zakaria-gwV9eklemSg-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card-body">
+                    <h5 class="card-title">فندق هيلتون</h5>
+                    <p class="card-text"><small class="text-muted">الأحد, ٦ أغسطس ٢٠٢٣ <i class="fa-regular fa-calendar"></i></small></p>
+                    <br>
+                    <div class="line1"></div>
+                    <bdi><p>يقع فندق الصفوة قبالة بوابة الملك عبدالعزيز في مكة المكرمة، ويقدم أماكن إقامة حديثة وراقية في مبنى عالٍ على أطراف ساحة الحرم المكّي. ويوفر خدمة الواي فاي المجانية. وقد تم تزويد الغرف في فندق الصفوة رويال اوركيد بالأثاث المعاصر، وتم
+                        تجهيزها بشاشة تلفزيون مسطحة مع قنوات فضائية، وجميعها مكيفة الهواء وتحتوي على حمّام داخلي مزود بلوازم استحمام مختارة.</p>
+                    </bdi>
+                    <p class="h-p">
+                        <button> احجز الان <i class="fa-solid fa-dollar-sign"></i></button>
+                        <button> الغرف المتاحة <i class="fa-solid fa-bed fa-flip-horizontal"></i></button>
+                        <button> الاسعار <i class="fa-solid fa-dollar-sign"></i></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card my-5 container p-0 hotel">
+        <div class="row g-0">
+            <div class="col-sm-8">
+                <div class="card-body">
+                    <h5 class="card-title">فندق دار التوحيد</h5>
+                    <p class="card-text"><small class="text-muted">الأحد, ٦ أغسطس ٢٠٢٣ <i class="fa-regular fa-calendar"></i></small></p>
+                    <br>
+                    <div class="line"></div>
+                    <bdi><p>يقع فندق الصفوة قبالة بوابة الملك عبدالعزيز في مكة المكرمة، ويقدم أماكن إقامة حديثة وراقية في مبنى عالٍ على أطراف ساحة الحرم المكّي. ويوفر خدمة الواي فاي المجانية. وقد تم تزويد الغرف في فندق الصفوة رويال اوركيد بالأثاث المعاصر، وتم
+                        تجهيزها بشاشة تلفزيون مسطحة مع قنوات فضائية، وجميعها مكيفة الهواء وتحتوي على حمّام داخلي مزود بلوازم استحمام مختارة.</p>
+                    </bdi>
+                    <p class="h-p1">
+                        <button> احجز الان <i class="fa-solid fa-dollar-sign"></i></button>
+                        <button> الغرف المتاحة <i class="fa-solid fa-bed fa-flip-horizontal"></i></button>
+                        <button> الاسعار <i class="fa-solid fa-dollar-sign"></i></button>
+                    </p>
+                </div>
+            </div>
+            <div class="parent col-sm-4">
+                <div class=" clipped" style="background: url(images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);background-size: contain;">
+                    <img src="images/febrian-zakaria-2QTsCoQnoag-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card my-5 container p-0 hotel">
+        <div class="row g-0">
+            <div class="parent2 col-sm-4">
+                <div class="clipped2" style="background: url(images/sandra-rei-JOv1emLpGZU-unsplash\ \(1\).jpg);background-size: contain;">
+                    <img src="images/sandra-rei-JOv1emLpGZU-unsplash (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card-body">
+                    <h5 class="card-title">فندق برج الساعة</h5>
+                    <p class="card-text"><small class="text-muted">الأحد, ٦ أغسطس ٢٠٢٣ <i class="fa-regular fa-calendar"></i></small></p>
+                    <br>
+                    <div class="line1"></div>
+                    <bdi><p>يقع فندق الصفوة قبالة بوابة الملك عبدالعزيز في مكة المكرمة، ويقدم أماكن إقامة حديثة وراقية في مبنى عالٍ على أطراف ساحة الحرم المكّي. ويوفر خدمة الواي فاي المجانية. وقد تم تزويد الغرف في فندق الصفوة رويال اوركيد بالأثاث المعاصر، وتم
+                        تجهيزها بشاشة تلفزيون مسطحة مع قنوات فضائية، وجميعها مكيفة الهواء وتحتوي على حمّام داخلي مزود بلوازم استحمام مختارة.</p>
+                    </bdi>
+                    <p class="h-p">
+                        <button> احجز الان <i class="fa-solid fa-dollar-sign"></i></button>
+                        <button> الغرف المتاحة <i class="fa-solid fa-bed fa-flip-horizontal"></i></button>
+                        <button> الاسعار <i class="fa-solid fa-dollar-sign"></i></button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>انضم الينا</h2>
+    <div class=" d-flex justify-content-center contact">
+        <div class="card my-5">
+            <div class="card-body ">
+                <h4 class="card-title ">للتواصل معنا</h4>
+                <img src="images/pngwing.com (13).png" alt="Card image " style="width:50% ">
+                <p class="card-text ">قم بارسال رسالة نصية</p>
+            </div>
+        </div>
+        <div class="card my-5">
+            <div class="card-body ">
+                <h4 class="card-title ">للتواصل معنا</h4>
+                <img src="images/pngwing.com (16).png" alt="Card image " style="width:50% ">
+                <p class="card-text ">قم بارسال رسالة نصية</p>
+            </div>
+        </div>
+        <div class="card my-5">
+            <div class="card-body ">
+                <h4 class="card-title ">للتواصل معنا</h4>
+                <img src="images/pngwing.com (17).png" alt="Card image " style="width:50% ">
+                <p class="card-text ">قم بارسال رسالة نصية</p>
+            </div>
+        </div>
+        <div class="card my-5">
+            <div class="card-body ">
+                <h4 class="card-title ">للتواصل معنا</h4>
+                <img src="images/pngwing.com (18).png" alt="Card image " style="width:50% ">
+                <p class="card-text ">قم بارسال رسالة نصية</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer d-flex justify-content-around bg-dark">
+        <table class="table table-dark table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">للتواصل <img src="images/logo.jpg" alt=""></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>تليفون: 2378941235</td>
+                </tr>
+                <tr>
+                    <td>فاكس: 123</td>
+                </tr>
+                <tr>
+                    <td>zamzam@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-dark table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">معلومات <img src="images/logo.jpg" alt=""></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>فروعنا بجميع انحاء المملكة</td>
+                </tr>
+                <tr>
+                    <td>برنامج ضيوف الرحمن</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-dark table-borderless">
+            <thead>
+                <tr>
+                    <th scope="col">خدمات <img src="images/logo.jpg" alt=""></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>الحج</td>
+                </tr>
+                <tr>
+                    <td>العمرة</td>
+                </tr>
+                <tr>
+                    <td>الزيارات</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid copyright bg-dark">جميع الحقوق محفوظة © 2023</div>
+
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="scripts.js "></script>
+</body>
+
+</html>
