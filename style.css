@@ -53,6 +53,7 @@ nav .nav-link {
 
 nav {
     background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 .welcome {
@@ -369,6 +370,7 @@ body>h2 {
 .carousel-caption {
     background-color: rgba(255, 255, 255, 0.57);
     padding: 50px 30px;
+    backdrop-filter: blur(10px);
 }
 
 .carousel-caption h3 {
@@ -421,6 +423,9 @@ nav .btn-primary,
 }
 
 @media(max-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
     body>i {
         left: 5%;
         top: 25%;
@@ -552,5 +557,38 @@ nav .btn-primary,
     .carousel-caption button {
         padding: 5px 20px;
         font-size: 10px;
+    }
+}
+
+@media(max-width:400px) {
+    .h-p {
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+        text-align: right;
+    }
+    .h-p1 {
+        position: absolute;
+        bottom: 420px;
+        left: -50px;
+        text-align: right;
+        width: 100vw;
+    }
+    .h-p1 button,
+    .h-p button {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .h-p button {
+        bottom: 10px;
+    }
+    .h-p1 {
+        bottom: 370px;
+    }
+    .line1 {
+        top: 485px;
+    }
+    .accordion-button:after {
+        margin-right: 40vw;
     }
 }
