@@ -99,6 +99,8 @@ body>h2 {
     text-align: center;
     color: white;
     margin: 0;
+    box-shadow: inset 0 0 10px black;
+    padding: 20px 0px;
 }
 
 .copy {
@@ -126,6 +128,7 @@ body>h2 {
     padding: 0px 10px;
     padding-top: 2px;
     text-decoration: none;
+    font-size: 17px;
 }
 
 .fixedimg {
@@ -489,6 +492,9 @@ h5 {
     .carousel-inner {
         height: 45vh;
     }
+    .welcome {
+        padding: 30px 65px;
+    }
     .accordion-button:after {
         margin-right: 50vw;
     }
@@ -498,6 +504,9 @@ h5 {
     }
     .papers {
         padding: 50px 20px;
+    }
+    .papers h5 {
+        font-size: 17px;
     }
     .fixedimg,
     .fixedimg2 {
