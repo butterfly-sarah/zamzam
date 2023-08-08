@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Noto+Naskh+Arabic&family=Scheherazade+New:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,11 @@ body>i {
     mix-blend-mode: multiply;
     width: 55px;
     text-align: center;
+    cursor: pointer;
+}
+
+body>i:hover {
+    opacity: 0.7;
 }
 
 body>.i2 {
@@ -54,6 +60,11 @@ nav .nav-link {
 nav {
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
+    font-family: 'Amiri', serif;
+}
+
+nav .me-2 {
+    width: 250px;
 }
 
 .welcome {
@@ -73,6 +84,13 @@ nav {
     border-radius: 20px;
     padding: 5px 20px;
     color: rgb(155, 103, 60);
+    border: 2px solid #D8B378;
+}
+
+.welcome button:hover {
+    background-color: #D8B378;
+    border: 2px solid white;
+    color: white;
 }
 
 body>h2 {
@@ -97,7 +115,7 @@ body>h2 {
     background-color: white;
     border: none;
     color: rgb(155, 103, 60);
-    padding: 9px 40px;
+    padding: 5px 20px;
     border-radius: 20px;
 }
 
@@ -105,7 +123,8 @@ body>h2 {
     border: 2px solid white;
     color: white;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 0px 10px;
+    padding-top: 2px;
     text-decoration: none;
 }
 
@@ -422,6 +441,25 @@ nav .btn-primary,
     height: 100vh;
 }
 
+p,
+.accordion-body,
+.papers,
+td {
+    font-family: 'Noto Naskh Arabic', serif;
+}
+
+th,
+.copyright,
+h2 {
+    font-family: 'amiri', serif;
+}
+
+h3,
+h4,
+h5 {
+    font-family: 'Scheherazade New', serif;
+}
+
 @media(max-width:500px) {
     body {
         overflow-x: hidden;
@@ -444,6 +482,9 @@ nav .btn-primary,
     }
     body>.i5 {
         top: 65%;
+    }
+    nav .me-2 {
+        width: 100%;
     }
     .carousel-inner {
         height: 45vh;
