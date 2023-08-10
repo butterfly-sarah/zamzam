@@ -14,19 +14,23 @@ body>i {
     right: 2%;
     top: 32%;
     padding: 10px;
-    font-size: 35px;
+    font-size: 25px;
     margin: 20px 0px;
     color: white;
     border-radius: 7px;
     background-color: black;
     mix-blend-mode: multiply;
-    width: 55px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 1px 1px 15px black;
 }
 
 body>i:hover {
-    opacity: 0.7;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen;
+    box-shadow: 1px 1px 15px white;
 }
 
 body>.i2 {
