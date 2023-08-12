@@ -467,6 +467,48 @@ h5 {
     font-family: 'Scheherazade New', serif;
 }
 
+.copy1 {
+    position: relative;
+}
+
+.c1::after {
+    content: attr(data-after);
+    position: absolute;
+    background-color: white;
+    width: max-content;
+    right: 55px;
+    top: 15px;
+    padding: 5px 10px;
+    border-radius: 10px 0px;
+    background-color: black;
+    z-index: 10;
+    box-shadow: 1px 1px 20px black;
+    display: none;
+}
+
+.c1:hover.copy1::after {
+    display: block;
+}
+
+.c2::after {
+    content: attr(data-after);
+    position: absolute;
+    background-color: white;
+    width: max-content;
+    right: 55px;
+    top: 15px;
+    padding: 5px 10px;
+    border-radius: 10px 0px;
+    background-color: black;
+    z-index: 10;
+    box-shadow: 1px 1px 20px black;
+    display: none;
+}
+
+.c2:hover.copy1::after {
+    display: block;
+}
+
 @media(max-width:500px) {
     body {
         overflow-x: hidden;
